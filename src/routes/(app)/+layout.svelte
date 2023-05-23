@@ -23,7 +23,8 @@
           <a href="/auth/signout" class="button" data-sveltekit-preload-data="off">Sign out</a>
         {:else}
           <span class="notSignedInText">You are not signed in</span>
-          <a href="/auth/signin" class="buttonPrimary" data-sveltekit-preload-data="off">Sign in</a>
+          <a href="/auth/new-user" class="buttonPrimary" data-sveltekit-preload-data="off">Sign up</a>
+          <a href="/auth/signin" class="buttonPrimary" data-sveltekit-preload-data="off">Log in</a>
         {/if}
       </p>
     </div>
@@ -117,7 +118,7 @@
   .button,
   .buttonPrimary {
     float: right;
-    margin-right: -0.4rem;
+    margin-right: 0.4rem;
     font-weight: 500;
     border-radius: 0.3rem;
     cursor: pointer;
